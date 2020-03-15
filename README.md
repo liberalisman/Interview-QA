@@ -594,7 +594,7 @@ NSLog(@"%p,%p,%p,%p", string, copyString, mutableCopyString, copyMutableString);
 
 ### 21.objc使用什么机制管理对象内存？
 
-Objective-C使用`AEC自动引用计数`来有效的管理内存。
+Objective-C使用`ARC自动引用计数`来有效的管理内存。
 
 他遵循的原则是，谁引用，谁销毁。
 
